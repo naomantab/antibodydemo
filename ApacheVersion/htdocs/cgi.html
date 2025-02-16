@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CGI Form</title>
+</head>
+<body>
+    <h1>Antibody Search Form</h1>
+    <form action="/cgi-bin/antibodyCGI.py" method="post">
+        <label for="Format">Format / Regex:</label><br>
+        <input type="Format" id="Format" name="Format"><br><br>
+
+        <label for="Antigen">Antigen / Non-functional:</label><br>
+        <input type="Antigen" id="Antigen" name="Antigen"><br><br>
+
+        <label for="AbML">AbML / Regex:</label><br>
+        <textarea id="AbML" name="AbML" rows="2" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
