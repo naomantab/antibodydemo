@@ -1,3 +1,5 @@
 ##Installing Live Apache server and run CGI
 
+1.	Install Apache server on your machine.
+2.	Test your installation on “localhost”
 
