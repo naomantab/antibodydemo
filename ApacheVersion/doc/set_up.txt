@@ -4,4 +4,6 @@
 2.	Test installation on “localhost”
 3. Configure your httpd.conf file("conf/httpd.conf") / working file provided in this folder.
     The file has to include the CGI details.
+4. Find your own python starting file with "where python" in cmd
+    (#!C:\Users\User\AppData\Local\Programs\Python\Python313\python.exe)
 
