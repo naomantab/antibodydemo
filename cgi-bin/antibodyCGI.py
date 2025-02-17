@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import cgi
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
